@@ -1,1 +1,1 @@
-{"config":{"system_prompt":"","model":"","temperature":0,"top_p":1,"framework":"nextjs-page-tailwind"},"prompts":[{"prompt":"Create a polling function in JavaScript","md5":"4fd03d7dc7c56412360577f964abcd68"}]}
+{"config":{"system_prompt":"","model":"","temperature":0,"top_p":1,"framework":"nextjs-page-tailwind"},"prompts":[{"prompt":"Create a polling function in JavaScript","md5":"4fd03d7dc7c56412360577f964abcd68"},{"prompt":"Create an Electron app for web scraping","md5":"9ea50b8e6e3f27dbf470cf99dc4c5a68"}]}
