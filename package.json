@@ -2,17 +2,25 @@
   "name": "template-nexts-page-tailwind",
   "version": "0.1.0",
   "private": true,
+  "main": "electron.js",
   "scripts": {
     "dev": "next dev",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
     "build": "next build",
     "start": "next start",
+    "electron-pack": "electron-packager .",
     "lint": "next lint",
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
     "next": "13.5.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "electron": "^15.3.0",
+    "electron-packager": "^15.3.0",
+    "cheerio": "^1.0.0-rc.10",
+    "axios": "^0.24.0",
+    "electron-is-dev": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
